@@ -1,0 +1,49 @@
+name: trade_z
+description: "TradeZ - Advanced stock market app with blow-up alerts."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.5
+
+  # Networking & caching
+  http: ^1.2.2
+  cached_network_image: ^3.4.1
+
+  # Local secure storage (tokens, user details)
+  flutter_secure_storage: ^9.2.2
+
+  # Encryption helper for local cache
+  encrypt: ^5.0.3
+
+  # Notifications (local)
+  flutter_local_notifications: ^17.2.3
+
+  # Utilities
+  intl: ^0.20.1
+  shared_preferences: ^2.3.3
+
+  # Modern typography
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
